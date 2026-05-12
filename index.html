@@ -4,9 +4,288 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>תמיר מערכות - התקנת מצלמות אבטחה</title>
+  <meta name="description" content="פתרונות אבטחה מתקדמים לבית ולעסק. התקנת מצלמות IP, מערכות ניטור, ושירות 24/7.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>הקובץ נשמר בהצלחה ✅</h1>
-  <p>הדבק כאן את קוד ה־HTML המלא שלך או השתמש בקובץ המצורף.</p>
+
+  <!-- סריקת רקע -->
+  <div class="scan-line"></div>
+
+  <!-- כפתור וואטסאפ צף -->
+  <a href="https://wa.me/972556899009?text=שלום%20תמיר%20מערכות,%20אני%20מעוניין%20בשירותי%20מצלמות%20אבטחה"
+     class="whatsapp-float" target="_blank" title="שלח הודעה בוואטסאפ">
+    <span class="wa-pulse"></span>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon-wrap">🎥</div>
+        <div class="logo-texts">
+          <span class="logo-text">תמיר מערכות</span>
+          <span class="logo-sub">SECURITY SYSTEMS</span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="active">בית</a>
+        <a href="services.html">שירותים</a>
+        <a href="gallery.html">גלריה</a>
+        <a href="#contact">צור קשר</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:0556899009" class="header-phone">055-689-9009</a>
+        <a href="https://www.instagram.com/tamit_systems" target="_blank" class="insta-header" title="אינסטגרם">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+      </div>
+      <!-- Mobile menu button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="תפריט">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" onclick="closeMobileMenu()">בית</a>
+      <a href="services.html" onclick="closeMobileMenu()">שירותים</a>
+      <a href="gallery.html" onclick="closeMobileMenu()">גלריה</a>
+      <a href="#contact" onclick="closeMobileMenu()">צור קשר</a>
+      <a href="https://wa.me/972556899009?text=שלום%20תמיר%20מערכות,%20אני%20מעוניין%20בשירותי%20מצלמות%20אבטחה" class="mobile-wa" target="_blank">💬 וואטסאפ</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <!-- Ambient orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="grid-bg"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up">
+        <span class="badge-dot"></span>
+        מעל 500 התקנות מוצלחות
+      </div>
+      <h1 class="animate-fade-up delay-1">
+        אבטחה ברמה<br>
+        <span class="highlight-neon">אחרת</span> לבית<br>
+        ולעסק שלך
+      </h1>
+      <p class="animate-fade-up delay-2">
+        פתרונות מתקדמים למצלמות אבטחה לבית ולעסק<br>
+        ייעוץ, התקנה ושירות מקצועי ברחבי הארץ
+      </p>
+      <div class="hero-btns animate-fade-up delay-3">
+        <a href="https://wa.me/972556899009?text=שלום%20תמיר%20מערכות,%20אני%20מעוניין%20בשירותי%20מצלמות%20אבטחה"
+           class="btn-wa" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          וואטסאפ עכשיו
+        </a>
+        <a href="#contact" class="btn-outline">לקביעת פגישה</a>
+      </div>
+    </div>
+
+    <div class="hero-stats animate-fade-up delay-4">
+      <div class="stat glass-card">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">התקנות</span>
+      </div>
+      <div class="stat glass-card">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">שנות ניסיון</span>
+      </div>
+      <div class="stat glass-card">
+        <span class="stat-num">24/7</span>
+        <span class="stat-label">שירות</span>
+      </div>
+      <div class="stat glass-card">
+        <span class="stat-num">98%</span>
+        <span class="stat-label">לקוחות מרוצים</span>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span class="scroll-text">גלול למטה</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section-cards">
+    <div class="section-label animate-on-scroll">השירותים שלנו</div>
+    <h2 class="section-title animate-on-scroll">פתרונות אבטחה <span class="neon-text">מקיפים</span></h2>
+    <div class="cards">
+      <div class="card animate-on-scroll">
+        <div class="card-icon">📷</div>
+        <h3>מצלמות IP ואנלוגיות</h3>
+        <p>התקנה מקצועית של מצלמות אבטחה מכל הסוגים לבית ולעסק</p>
+        <ul class="card-features">
+          <li>רזולוציה עד 4K</li>
+          <li>ראיית לילה 30 מטר</li>
+          <li>זיהוי תנועה חכם</li>
+        </ul>
+      </div>
+      <div class="card animate-on-scroll">
+        <div class="card-icon">📱</div>
+        <h3>צפייה מרחוק</h3>
+        <p>מערכות צפייה דרך הסמארטפון בכל מקום ובכל זמן</p>
+        <ul class="card-features">
+          <li>אפליקציה חינמית</li>
+          <li>שידור חי 24/7</li>
+          <li>הקלטה לענן</li>
+        </ul>
+      </div>
+      <div class="card animate-on-scroll">
+        <div class="card-icon">🔧</div>
+        <h3>שירות ותחזוקה</h3>
+        <p>תחזוקה שוטפת ושירות מהיר לכל תקלה</p>
+        <ul class="card-features">
+          <li>שירות חירום 24/7</li>
+          <li>הגעה לכל הארץ</li>
+          <li>אחריות 3 שנים</li>
+        </ul>
+      </div>
+      <div class="card animate-on-scroll">
+        <div class="card-icon">💡</div>
+        <h3>ייעוץ מקצועי</h3>
+        <p>התאמת מערכת אבטחה מושלמת לצרכים שלך</p>
+        <ul class="card-features">
+          <li>סקר אבטחה חינמי</li>
+          <li>תכנון מותאם אישית</li>
+          <li>הדרכת צוות</li>
+        </ul>
+      </div>
+    </div>
+    <div class="center-btn">
+      <a href="services.html" class="btn-primary">לכל השירותים ←</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section-about animate-on-scroll">
+    <div class="about-text">
+      <div class="section-label">אודות</div>
+      <h2>למה לבחור <span class="neon-text">תמיר מערכות?</span></h2>
+      <p>תמיר מערכות מספקת שירותי ייעוץ, מכירה והתקנה של מערכות מצלמות מתקדמות ללקוחות פרטיים, עסקים ומוסדות.</p>
+      <p>דגש על אמינות, יחס אישי והתקנות איכותיות בפריסה ארצית.</p>
+      <div class="about-badges">
+        <span class="badge">✅ מעל 500 פרויקטים</span>
+        <span class="badge">✅ אחריות מלאה</span>
+        <span class="badge">✅ שירות 24/7</span>
+      </div>
+      <a href="gallery.html" class="btn-primary">לגלריית העבודות ←</a>
+    </div>
+    <div class="about-visual">
+      <div class="about-glow-card">
+        <div class="about-icon">🔒</div>
+        <div class="about-stat-big">500+</div>
+        <div class="about-stat-label">פרויקטים הושלמו</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section-testimonials">
+    <div class="section-label animate-on-scroll">המלצות</div>
+    <h2 class="section-title animate-on-scroll">לקוחות <span class="neon-text">מרוצים</span></h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card animate-on-scroll">
+        <div class="stars">★★★★★</div>
+        <p>"תמיר מערכות עשו עבודה מדהימה. המצלמות חדות, ההתקנה הייתה נקייה ומקצועית, והשירות אחרי המכירה מעולה."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">YK</div>
+          <div>
+            <strong>יוסי כהן</strong>
+            <small>בעל עסק, רשת חנויות</small>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card animate-on-scroll">
+        <div class="stars">★★★★★</div>
+        <p>"עובדים עם תמיר מערכות כבר 3 שנים. אמינות, מקצועיות ומחירים הוגנים. כל פרויקט מסתיים בזמן ובאיכות גבוהה."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">RL</div>
+          <div>
+            <strong>רחל לוי</strong>
+            <small>מנהלת נכסים, חברת נדל"ן</small>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card animate-on-scroll">
+        <div class="stars">★★★★★</div>
+        <p>"הפרויקט הכי מורכב שעשינו — 48 מצלמות בקניון שלם. תמיר ניהל את הכל בצורה מושלמת. מרוצים מאוד."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">DA</div>
+          <div>
+            <strong>דני אברהם</strong>
+            <small>מנהל אבטחה, קניון גדול</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-contact">
+    <div class="section-label animate-on-scroll">צור קשר</div>
+    <h2 class="section-title animate-on-scroll">בואו <span class="neon-text-gold">נדבר</span></h2>
+    <div class="contact-grid">
+      <div class="contact-btns animate-on-scroll">
+        <a href="https://wa.me/972556899009?text=שלום%20תמיר%20מערכות,%20אני%20מעוניין%20בשירותי%20מצלמות%20אבטחה" class="big-btn wa" target="_blank">
+          <span class="big-btn-icon">💬</span>
+          <span class="big-btn-text"><strong>וואטסאפ</strong><small>הודעה מיידית</small></span>
+        </a>
+        <a href="tel:0556899009" class="big-btn phone">
+          <span class="big-btn-icon">📞</span>
+          <span class="big-btn-text"><strong>התקשר</strong><small>0556899009</small></span>
+        </a>
+        <a href="mailto:tamir.t.sys@gmail.com" class="big-btn email">
+          <span class="big-btn-icon">✉️</span>
+          <span class="big-btn-text"><strong>מייל</strong><small>tamir.t.sys@gmail.com</small></span>
+        </a>
+        <a href="https://www.instagram.com/tamit_systems" target="_blank" class="big-btn insta">
+          <span class="big-btn-icon">📸</span>
+          <span class="big-btn-text"><strong>אינסטגרם</strong><small>@tamit_systems</small></span>
+        </a>
+        <div class="available-badge">
+          <span class="online-dot"></span>
+          זמין עכשיו · מענה תוך שעה
+        </div>
+      </div>
+      <div class="contact-form-wrap animate-on-scroll">
+        <form id="contact-form">
+          <label>שם מלא *</label>
+          <input type="text" id="name" required placeholder="ישראל ישראלי">
+          <label>טלפון *</label>
+          <input type="tel" id="phone" required placeholder="05X-XXXXXXX">
+          <label>דוא"ל (אופציונלי)</label>
+          <input type="email" id="email" placeholder="example@gmail.com">
+          <label>הודעה *</label>
+          <textarea id="msg" required placeholder="ספר לנו במה נוכל לעזור..."></textarea>
+          <button type="submit">שלח הודעה 🚀</button>
+        </form>
+        <div id="success-message" style="display:none;">✅ ההודעה נשלחה! נחזור אליך בהקדם.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">🎥 תמיר מערכות</div>
+      <div class="footer-links">
+        <a href="index.html">בית</a>
+        <a href="services.html">שירותים</a>
+        <a href="gallery.html">גלריה</a>
+        <a href="https://www.instagram.com/tamit_systems" target="_blank">אינסטגרם</a>
+      </div>
+      <div class="footer-copy">&copy; 2026 תמיר מערכות - כל הזכויות שמורות</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
